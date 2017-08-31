@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #EEE7E1;
+}
+.div{
+	width: 260px;
+	background: white;
+}
+.div>p{
+	background: #E9185A;
+	line-height: 38px;
+	color: white;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	padding-left: 10px;
+}
+ul li{
+	line-height: 28px;
+	border-bottom: 1px dashed #666;
+}
+ul li a{
+	color: #666;
+	text-decoration: none;
+}
+span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #666;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 50%;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+a:hover{
+	color:#E9185A;
+}
+a:hover span{
+	background: #E9185A;
+}

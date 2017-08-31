@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			//var arr=new Array();
+			var arr=new Array(5);
+			//
+			document.write(arr.length);
+			//
+			arr[0]=10;
+			arr[1]=100;
+			arr[2]="anc";
+			arr[3]=3.5;
+			arr[4]='xxx';
+			//
+			for(var i=0;i<arr.length;i++){
+				document.write(arr[i]);
+			}
+			//
+			var arr2=["1","3","12313"];
+			var arr3=new Array("xxx","yyy",123);
+			arr3["没过"]="heh";
+			for(var i in arr3){
+				document.writeln(i+"....."+arr3[i]);
+			}
+			var num=123;
+			var num2="123";
+			document.write(num===num2);
+			document.write(typeof(num));
+			document.write(typeof(num2));
+			var arr4=["amfe","meng","hehhda","abcje"];
+			for(var i in arr4){
+			if(arr4[i].indexOf("a")>=0||arr4[i].indexOf("A")>=0){
+				document.write(arr4[i]);
+			}
+			}
+		</script>
+	</body>
+</html>

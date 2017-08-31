@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>领奖页面</title>
+	</head>
+	<body>
+		恭喜中奖！
+		<script type="text/javascript">
+			
+			var ref =document.referrer;
+			if(ref!="http://127.0.0.1:8020/day31/go.html?__hbt=1503906618214")
+			{
+				document.write("不是从领奖页面进入，5秒后跳转到登陆界面");
+				window.setTimeout("",5000);
+				jump();
+			}
+			function jump(){
+				window.location.href="jsArray.html";
+			}
+		</script>
+	</body>
+</html>

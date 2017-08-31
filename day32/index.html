@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<input type="button" name=""  value="点击" onclick="dianji()"/>
+		<img src="img/1.jpg" id="imgg" />
+		hehe
+		<script type="text/javascript">
+			var img=document.getElementById("imgg");
+				var src=img.getAttribute("src");
+				var num=(src[4]);
+			function dianji(){
+				
+				
+				num++;
+				src="img/"+num+".jpg";
+				
+				img.setAttribute("src",src);
+				
+				
+			}
+		</script>
+	</body>
+</html>
